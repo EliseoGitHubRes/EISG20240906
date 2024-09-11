@@ -1,4 +1,4 @@
-package org.esfe.dtos;
+package org.esfe.dtos.producteisg;
 
 import lombok.Getter;
 import lombok.Setter;

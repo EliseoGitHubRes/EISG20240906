@@ -1,13 +1,15 @@
-package org.esfe.dtos;
-import lombok.Getter;
-import lombok.Setter;
+package org.esfe.dtos.producteisg;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
-public class ProductEISGGuardar implements Serializable{
+public class ProductEISGSalida implements Serializable {
+    private Integer id;
+
     private String nombreEISG;
 
     private String descripcionEISG;
